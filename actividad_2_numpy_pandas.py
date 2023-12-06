@@ -21,6 +21,7 @@ import pandas as pd
 import numpy as np
 
 import io
+
 from google.colab import files
 pd.set_option('display.float_format', lambda x: '%.2f' % x) # truco para notación cientifica
 
