@@ -44,7 +44,7 @@ for f in tabla.find_all('tr'):
         lenguajes.append([language, porcentaje])
 
 df = pd.DataFrame(lenguajes, columns=['Lenguaje', 'Porcentaje_Uso'])
-print(df)
+print(lenguajes)
 
 
 # Leer la tabla y crear un DataFrame
