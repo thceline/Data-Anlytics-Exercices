@@ -21,4 +21,4 @@ json_code = response.json()
 df_berry = pd.json_normalize(json_code)
 
 df_berry_2 = pd.json_normalize( df_berry["flavors"][0])
-print(df_berry_2)
+print(df_berry_2.to_string())

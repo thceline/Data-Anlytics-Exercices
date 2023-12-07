@@ -40,4 +40,4 @@ def convert_to_millions(sales):
 last_table['Ventas'] = last_table['Ventas'].apply(convert_to_millions)
 
 # Mostrar el DataFrame resultante
-print(last_table)
+print(last_table.to_string())
